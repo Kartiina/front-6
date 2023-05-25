@@ -36,6 +36,7 @@ header #nav-menu {
   margin-right: 24px;
   border-radius: 15px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
 }
 .line {
   margin-top: 20px;
@@ -100,6 +101,7 @@ a.button {
   background-color: #4d66a7;
   border-radius: 10px;
   float: right;
+  cursor: pointer;
 }
 .btn1 {
   margin-left: 600px;
@@ -110,6 +112,7 @@ a.button {
   width: 269px;
   height: 54px;
   border-radius: 10px;
+  cursor: pointer;
 }
 a {
   text-decoration: none;
@@ -138,4 +141,21 @@ a {
   width: 520px;
   height: 54px;
   border-radius: 10px;
+  cursor: pointer;
+}
+footer {
+  width: 1450px;
+  height: 176px;
+  margin: auto;
+  clear: both;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(180deg, #4d66a7 0%, #2a303e 100%);
+}
+ul {
+  padding: 20px 0 0 150px;
+}
+li {
+  padding-top: 20px;
+  list-style-type: none;
+  cursor: pointer;
 }
